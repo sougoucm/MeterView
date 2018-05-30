@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="submeterresultview">
+        <attr name="mr_radius" format="dimension"/>     <!--扇形半径-->
+        <attr name="mr_startAngle" format="integer"/> <!-- 起始角度-->
+        <attr name="mr_sweepAngle" format="integer"/>  <!--绘制角度-->
+        <attr name="mr_arcColor" format="color"/> <!--弧颜色-->
+        <attr name="mr_arcColor_bg" format="color"/> <!--弧 背景 颜色-->
+        <attr name="mr_measureTextSize" format="dimension"/> <!--字体大小-->
+        <attr name="mr_textColor" format="color"/> <!--字体颜色-->
+        <attr name="mr_stripeWidth" format="dimension"/> <!--色带宽度-->
+
+        <attr name="mr_bgColor" format="color"/> <!--背景颜色-->
+    </declare-styleable>
+
+    <declare-styleable name="subratiolineview">
+        <attr name="rl_lineHight" format="dimension"/>     <!--线高-->
+        <attr name="rl_lineWidth" format="dimension"/> <!--线宽度-->
+        <attr name="rl_title" format="string"/> <!-- 标题-->
+        <attr name="rl_unit" format="string"/>  <!--单位-->
+        <attr name="rl_linColor" format="color"/> <!--线颜色-->
+        <attr name="rl_linColor_bg" format="color"/> <!--线 背景 颜色-->
+        <attr name="rl_measureTextSize" format="dimension"/> <!--字体大小-->
+        <attr name="rl_textColor" format="color"/> <!--字体颜色-->
+
+
+        <attr name="rl_bgColor" format="color"/> <!--控件背景颜色-->
+    </declare-styleable>
+</resources>
